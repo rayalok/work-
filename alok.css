@@ -1,0 +1,60 @@
+*
+{
+    margin: 0 auto;
+    padding: 0;
+    font-family: sans-serif;
+}
+.container
+{
+    width: 80%;
+    margin-top: 5%;
+
+}
+h1 {
+    text-align: center;
+}
+
+p.border {
+    border: .1px solid #EAEAEA;
+    margin-bottom: 34px;
+    margin-top: 4px;
+}
+
+button.alok-btn {
+    width: 100%;
+    border: none;
+    text-align: left;
+    padding: 22px 12px;
+    font-size: 22px;
+    background: #DACF15;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 9px;
+}
+
+span.btn-tx {
+    flex: 1;
+    font-size: 26px;
+}
+
+
+
+.alok-body {
+    padding: 0px 11px;
+    line-height: 29px;
+    background: #CDCDCD;
+    overflow: hidden;
+    height: 0;
+}
+.active, .alok-btn:hover{
+    background-color:#F6AB03;
+    color:white;
+}
+.acc-show{
+    height: fit-content;
+  
+}
+
+.up i{
+    transform: rotate(180deg);
+}
